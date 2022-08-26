@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
+}
+.lock {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 1690px;
+    margin: 0 auto;
+}
+
+
+// font-family: 'Inter', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Nunito', sans-serif;
+@import '../blocks/discount';
+@import '../blocks/header';
+@import '../blocks/mobile__header';
+@import '../blocks/main__slider';
+@import '../blocks/catalog';
+@import '../blocks/categories';
+@import '../blocks/social';
+@import '../blocks/footer';
+@import '../blocks/media';

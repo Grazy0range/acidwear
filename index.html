@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css  ">
+    <link rel="stylesheet" href="css/blocks/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>ACID WEAR</title>
+</head>
+
+<body>
+    <div class="discount">
+        <div class="container">
+            <div class="discount__desk">
+                <span class="descr">
+                    Получить скидку 5%
+                </span>
+                <form action="#">
+                    <input type="text" name="email_desk" class="email" placeholder="Введите ваш email...">
+                    <input type="submit" name="button_desk" class="button button2">
+                </form>
+                <span class="close"></span>
+            </div>
+            <div class="discount__mob">
+                <div class="mob__item">
+                    <div class="mob__title">
+                        <span class="mob__title-text">Получить скидку</span>
+                        <span class="close"></span>
+                    </div>
+                    <div class="mob__content">
+                        <form action="#">
+                            <input type="text" name="email_desk" class="email" placeholder="Введите ваш email...">
+                            <input type="submit" name="button_desk" class="button button2">
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal">
+        <div class="wrapper">
+            <span class="modal__message">
+                Скоро на почту вам придет промо-код, которым вы можете воспользоваться на нашем сайте
+            </span>
+            <span class="close">Закрыть уведомление</span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <ul class="header__nav">
+                <li class="header__item">
+                    <a href="#" class="header__link">МУЖСкОЕ</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">ЖЕНСКОЕ</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">акссеуары</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">распродажа</a>
+                </li>
+            </ul>
+            <a href="#" class="header__logo">
+                <img src="icons/logo22.png" alt="logo" class="logo">
+            </a>
+            <div class="header__right">
+                <div class="header__func">
+                    <a href="#" class="header__delivery">Доставка</a>
+                    <form class="header__search" action="#" method="post">
+                        <input type="text" placeholder="поиск...">
+                        <button type="submit">
+                            <img src="icons/search.svg" alt="search">
+                        </button>
+                    </form>
+                </div>
+                <div class="header__log">
+                    <a href="#" class="acc"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z" />
+                        </svg></a>
+                    <a href="#" class="cart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile__header">
+        <div class="container">
+            <a href="#" class="cart">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                </svg>
+            </a>
+            <a href="#" class="mobile__header__logo">
+                <img src="icons/logo22.png" alt="logo" class="logo">
+            </a>
+            <div class="burger__menu">
+                <span></span>
+            </div>
+            <nav>
+                <ul class="burger__menu-list">
+                    <li><a href="#" class="burger_link">МУЖСкОЕ</a></li>
+                    <li><a href="#" class="burger_link">ЖЕНСКОЕ</a></li>
+                    <li><a href="#" class="burger_link">акссеуары</a></li>
+                    <li><a href="#" class="burger_link">распродажа</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <section class="main__slider">
+        <div class="container">
+            <div class="owl-carousel slider owl-theme">
+                <div class="slider__item"><img src="img/first_slide.jpg" alt="first"></div>
+                <div class="slider__item"><img src="img/second_slide.jpg" alt="first"></div>
+                <div class="slider__item"><img src="img/third_slide.jpg" alt="first"></div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active">
+                    <div>нОВИНКА</div>
+                </li>
+                <li class="catalog__tab">
+                    <div>пРЕДЗАКАЗ</div>
+                </li>
+                <li class="catalog__tab">
+                    <div>РАСПРОДАЖА</div>
+                </li>
+            </ul>
+        </div>
+        <div class="catalog__content catalog__content_active">
+            <div class="container">
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__content">
+            <div class="container">
+                <div class="catalog__item">
+                    <img src="img/IMG_20210826_175956.jpg" alt="woman" class="catalog__item_img">
+                    <div class="catalog__item__content">
+                        <span class="title">ФУТБОЛКА ЖЕНСКАЯ ACIDWEAR «DJ NEW»</span>
+                        <span class="price">1200 руб.</span>
+                        <a href="#" class="about">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__content">
+            <div class="container"></div>
+        </div>
+        <a href="#" class="catalog__button_more">Показать еще</a>
+    </section>
+    <section class="categories">
+        <div class="container">
+            <a href="#" class="categories__man item">
+                <div class="categories__plate">
+                    мужское
+                </div>
+            </a>
+            <a href="#" class="categories__woman item">
+                <div class="categories__plate">
+                    женское
+                </div>
+            </a>
+            <a href="#" class="categories__acces item">
+                <div class="categories__plate">
+                    Аксессуары
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="social">
+        <div class="container">
+            <h2 class="social__head">
+                ACID WEAR SOCIAL
+            </h2>
+            <div class="owl-carousel owl-theme social__slider">
+                <div class="social__item">
+                    <div class="item__img">
+                        <img src="img/23.jpg" alt="23" class="img">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__date">01.01.2022</div>
+                        <div class="item__head">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                        <div class="item__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab
+                            eum nostrum, voluptatum inventore velit perspiciatis ducimus culpa quibusdam aperiam?</div>
+                        <a href="#" class="item__button">Читать</a>
+                    </div>
+                </div>
+                <div class="social__item">
+                    <div class="item__img">
+                        <img src="img/23.jpg" alt="23" class="img">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__date">01.01.2022</div>
+                        <div class="item__head">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                        <div class="item__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab
+                            eum nostrum, voluptatum inventore velit perspiciatis ducimus culpa quibusdam aperiam?</div>
+                        <a href="#" class="item__button">Читать</a>
+                    </div>
+                </div>
+                <div class="social__item">
+                    <div class="item__img">
+                        <img src="img/23.jpg" alt="23" class="img">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__date">01.01.2022</div>
+                        <div class="item__head">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                        <div class="item__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab
+                            eum nostrum, voluptatum inventore velit perspiciatis ducimus culpa quibusdam aperiam?</div>
+                        <a href="#" class="item__button">Читать</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="catalog__button_more">Читать еще</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__section">
+                <h3 class="footer__title">
+                    Категории
+                </h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Мужское</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Женское</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Акссесуары</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Распродажа</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section law_info">
+                <h3 class="footer__title">
+                    правовая информация
+                </h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Как совершить покупку</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Доставка</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Оплата</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Возврат</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">
+                    faq
+                </h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Доставка и оплата</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Таблицы размеров</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Политика конфиденциальности</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">
+                    личный кабинет
+                </h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Вход</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section socialition">
+                <h3 class="footer__title">
+                    мы в соц.сетях
+                </h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"><img src="icons/tg.svg" alt="tg"> <span>Telegram</span> </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"><img src="icons/inst.svg" alt="inst"> <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"><img src="icons/vk.svg" alt="vk"> <span>ВКонтакте</span> </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"><img src="icons/yt.svg" alt="yt"> <span>YouTube</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

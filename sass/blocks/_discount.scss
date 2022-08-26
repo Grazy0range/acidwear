@@ -1,0 +1,177 @@
+.discount {
+  position: sticky;
+  top: 0;
+  background-color: rgba(53, 58, 71, 0.8);
+  padding: 15px 0;
+  z-index: 9000;
+  transition: all 0.3s;
+  &__desk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .descr {
+      text-shadow: 1px 1px 10px white;
+      font-size: 22px;
+    }
+
+    form {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 360px;
+      display: flex;
+      .email {
+        border: none;
+        outline: none;
+        background: rgba(217, 217, 217, 0.3);
+        padding: 3px 0 3px 8px;
+        height: 30px;
+        width: 70%;
+        border-radius: 12px 0 0 12px;
+        box-shadow: 0 2px 5px rgba(217, 217, 217, 0.3);
+        &::placeholder {
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.486);
+        }
+      }
+      .button {
+        background: rgba(217, 217, 217, 0.6);
+        color: #fff;
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 30%;
+        border-radius: 0 12px 12px 0;
+        box-shadow: 0 2px 5px rgba(217, 217, 217, 0.6);
+        font-size: 14px;
+        transition: all 0.3s;
+        &:hover {
+          background: rgba(217, 217, 217, 0.452);
+        }
+      }
+    }
+  }
+  &__mob {
+    display: none;
+    .mob__item {
+      width: 100%;
+      transition: all 0.3s;
+
+      .mob__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        transition: all 0.3s;
+        position: relative;
+        .mob__title-text {
+          background: rgba(217, 217, 217, 0.6);
+          padding: 5px 10px;
+          border-radius: 10px;
+          box-shadow: 0px -2px 10px rgba(217, 217, 217, 0.6);
+        }
+      }
+      .mob__content {
+        display: none;
+        padding: 20px 0;
+
+        form {
+          width: 90%;
+          display: flex;
+          .email {
+            border: none;
+            outline: none;
+            background: rgba(217, 217, 217, 0.3);
+            padding: 3px 0 3px 8px;
+            height: 30px;
+            width: 70%;
+            border-radius: 12px 0 0 12px;
+            box-shadow: 0 2px 5px rgba(217, 217, 217, 0.3);
+            &::placeholder {
+              font-size: 14px;
+              color: rgba(255, 255, 255, 0.486);
+            }
+          }
+          .button {
+            background: rgba(217, 217, 217, 0.6);
+            color: #fff;
+            border: none;
+            outline: none;
+            height: 30px;
+            width: 30%;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 2px 5px rgba(217, 217, 217, 0.6);
+            font-size: 14px;
+            transition: all 0.3s;
+            &:hover {
+              background: rgba(217, 217, 217, 0.452);
+            }
+          }
+        }
+      }
+    }
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    background: rgba(217, 217, 217, 0.6);
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s;
+    right: 0;
+    cursor: pointer;
+    &::before,
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+    }
+    &::before {
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
+    &:hover {
+      background: rgba(217, 217, 217, 0.452);
+    }
+  }
+}
+
+.modal {
+  padding: 15px;
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-30%) translateX(-50%);
+  z-index: 999999999;
+  width: 90%;
+  height: auto;
+  background-color: rgba(53, 58, 71, 0.8);
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .modal__message {
+      font-size: 20px;
+    }
+    .close {
+      background: rgba(217, 217, 217, 0.6);
+      padding: 5px 10px;
+      border-radius: 10px;
+      box-shadow: 0px -2px 10px rgba(217, 217, 217, 0.6);
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}

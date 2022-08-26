@@ -1,0 +1,120 @@
+.social {
+  height: 1100px;
+  box-shadow: 0 10px 13px -1px rgba(0,0,0,0.7) inset;
+  background: url(../../img/social.jpg) no-repeat bottom / cover;
+  padding-top: 30px;
+  &__head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 5px 0 0 #3489ab;
+  }
+  &__slider {
+    margin-top: 50px;
+    .disabled {
+      display: block !important;
+    }
+    .owl-nav {
+      display: none !important;
+    }
+    .owl-dots {
+      margin-top: 60px !important;
+      .owl-dot {
+        transition: all .3s;
+        span {
+          width: 30px;
+          height: 30px;
+          background: rgba(52, 137, 171, 0.5);
+        }
+        &:hover{
+          span{
+            background: rgba(68, 182, 228, 0.5);
+          }
+        }
+      }
+      .active{
+        span{
+          background: #3489AB !important;
+        }
+      }
+    }
+  }
+  &__item {
+    width: 745.39px;
+    height: 720px;
+    background: #14213d;
+    border-radius: 15px;
+    margin: 0 auto !important;
+    position: relative;
+    .item__img {
+      height: 350px;
+      width: 100%;
+      overflow: hidden;
+      padding: 15px;
+      border-radius: 15px;
+      img {
+        border-radius: 15px;
+      }
+    }
+    .item__content {
+      padding: 15px;
+    }
+    .item__date {
+      font-family: "Nunito";
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 15px;
+      color: #e5e5e5;
+    }
+    .item__head {
+      font-family: "Nunito";
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+      color: #e5e5e5;
+      padding: 13px 40px 0;
+    }
+    .item__descr {
+      font-family: "Nunito";
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 30px;
+      color: #e5e5e5;
+      margin-top: 15px;
+      padding: 0 40px;
+    }
+    .item__button {
+      font-family: "Nunito";
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 30px;
+      color: #e5e5e5;
+      text-decoration: none;
+      text-align: right;
+      display: inline-block;
+      position: absolute;
+      right: 55px;
+      bottom: 20px;
+      transition: all 0.3s;
+      &::after {
+        content: "\f105";
+        font-family: FontAwesome;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 2px;
+        right: -20px;
+      }
+      &:hover {
+        color: #e5e5e591;
+      }
+    }
+  }
+  .catalog__button_more{
+    margin-top: 30px;
+  }
+}
